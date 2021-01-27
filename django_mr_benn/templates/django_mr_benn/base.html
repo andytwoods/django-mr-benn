@@ -1,6 +1,9 @@
 some stuff
+<p>view: {{ view }}</p>
+<p>url_name: {{ url_name }}</p>
+<p>url: {{ url }}</p>
+<p>file: {{ file }}</p>
 <script>
-  console.log(1)
   localStorage.setItem('items', JSON.stringify(itemsArray))
   const data = JSON.parse(localStorage.getItem('items'))
 </script>
